@@ -1,8 +1,8 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
-const PORT = process.env.PORT;
-const MONGODB_URI = process.env.MONGODB_URI;
-const REDIS_URL = process.env.REDIS_URL;
+const PORT = 5000;
+const MONGODB_URI = "mongodb+srv://devops:devops123@cluster0.7nuv6zk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const REDIS_URL = "redis://127.0.0.1:6379";
 
 export { MONGODB_URI, PORT, REDIS_URL };
